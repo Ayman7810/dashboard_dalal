@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>ALDALAL</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Phoenixcoded" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/logo-dark.png" type="image/x-icon">
+    <!-- vendor css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/plugins/bootstrap-icons-1.10.3/bootstrap-icons.css">
+    
+</head>
+<body class="">
+	<!-- [ Pre-loader ] start -->
+	<div class="loader-bg">
+		<div class="loader-track">
+			<div class="loader-fill"></div>
+		</div>
+	</div>
+	<!-- [ Pre-loader ] End -->
+	<!-- [ navigation menu ] start -->
+	<nav class="pcoded-navbar menu-light ">
+			<div class="navbar-wrapper  ">
+				<div class="navbar-content scroll-div " >
+					
+					<div>
+						<div class="main-menu-header">
+							<img class="img-radius" src="assets/images/user/1.jpg" alt="User-Profile-Image">
+							<div class="user-details">
+								<div id="more-details">اسم الادمن</div>
+							</div>
+						</div>
+					</div>
+					
+					<ul class="nav pcoded-inner-navbar ">
+						<li class="nav-item pcoded-menu-caption">
+						</li>
+						<li class="nav-item">
+							<a href="index.html" class="nav-link "><span class="pcoded-mtext">لوحة التحكم</span> <span class="pcoded-micon"><i class="feather icon-home"></i></span></a>
+						</li>
+						<li class="nav-item pcoded-hasmenu">
+							<a href="#!" class="nav-link "><span class="pcoded-mtext">قائمة الصفحات</span><span class="pcoded-micon"><i class="feather icon-layout"></i></span></a>
+							<ul class="pcoded-submenu">
+								<li><a href="users.html" >المستخدمين</a></li>
+								<li><a href="homes.html" >المنازل</a></li>
+								<li><a href="bloked.html" >المحضورين</a></li>
+								<li><a href="chart-apex.html" >الاحصائيات البيانية</a></li>
+								<li><a href="confirmation-of-the-landiords-information.html" >تاكيد طلبات المؤجرين</a></li>
+							</ul>
+						</li>
+						 <li class="nav-item ">
+							 <a href="auth-signin.html" class="nav-link has-ripple">
+							
+							 <span class="pcoded-micon">
+									<i class="bi bi-box-arrow-left"></i>
+							 </span>
+							 <span >خروج</span>
+							
+						   </a>
+						</li>
+							 
+					
+					</ul>
+				
+				</div>
+			</div>
+	</nav>
+	<!-- [ navigation menu ] end -->
+	<!-- [ Header ] start -->
+	<header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
+		
+			
+				<div class="m-header">
+					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+					<a href="#!" class="b-brand">
+						<!-- ========   change your logo hear   ============ -->
+						<img src="assets/images/logo.png" alt="" width="150px" class="logo">
+						<img src="assets/images/logo-icon.png" alt="" class="logo-thumb">
+					</a>
+					<a href="#!" class="mob-toggler">
+						<i class="feather icon-more-vertical"></i>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
+							<div class="search-bar">
+								<input type="text" class="form-control border-0 shadow-none" placeholder="إبحث هنا">
+								<button type="button" class="close" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+							<li>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+									<div class="dropdown-menu-right notification noti hide" >
+										<div class="noti-head">
+											<h6 class="d-inline-block m-b-0">الإشعارات</h6>
+											<div class="float-right">
+												<a href="#!" class="m-r-10">قراءة الكل</a>
+												<a href="#!">حذف الكل</a>
+											</div>
+										</div>
+										<ul class="noti-body">
+											<li class="n-title">
+												<p class="m-b-0">جديد</p>
+											</li>
+                                        <a href="confirmation-home-information.html">
+                                            	<li class="notification">
+                                                        <div class="media">
+                                                            <img class="img-radius" src="assets/images/user/3.jpg" alt="Generic placeholder image">
+                                                            <div class="media-body">
+                                                                <p><strong>محمد صالح</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
+                                                                <p class="p">شقه</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                        </a>
+										<a href="confirmation-bulid-up-information.html">
+                                            	<li class="notification noti-ma">
+													<div class="media">
+														<img class="img-radius" src="assets/images/user/4.jpg" alt="Generic placeholder image">
+														<div class="media-body">
+															<p><strong>عبدالولي نبيل</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>45 min</span></p>
+															<p class="p">مبنئ</p>
+														</div>
+
+                                                    </div>
+                                                </li>
+                                        </a>
+												
+										<a href="confirmation-room-information.html">
+                                                <li class="notification">
+														<div class="media">
+															<img class="img-radius" src="assets/images/user/2.jpg" alt="Generic placeholder image">
+															<div class="media-body">
+																<p><strong>حزام احمد</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>2 hours</span></p>
+                                                                <p class="p">غرفة</p>
+                                                            </div>
+														</div>
+													</li>
+                                        </a>		
+										<a href="confirmation-store-information.html">
+                                            	<li class="notification">
+                                                        <div class="media">
+                                                            <img class="img-radius" src="assets/images/user/1.jpg" alt="Generic placeholder image">
+                                                            <div class="media-body">
+                                                                <p><strong>جلال طه</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 hours</span></p>
+                                                                <p class="p">مخزن</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                        </a>
+											<li class="n-title">
+												<p class="m-b-0">من قبل</p>
+											</li>
+											<li class="notification">
+												<div class="media">
+													<img class="img-radius" src="assets/images/user/4.jpg" alt="Generic placeholder image">
+													<div class="media-body">
+														<p><strong>عمر خالد</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
+														<p>مستأجر</p>
+													</div>
+												</div>
+											</li>
+											<li class="notification">
+												<div class="media">
+													<img class="img-radius" src="assets/images/user/2.jpg" alt="Generic placeholder image">
+													<div class="media-body">
+														<p><strong>مروان ياسين</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 min</span></p>
+														<p>مستأجر</p>
+													</div>
+												</div>
+											</li>
+											<li class="notification">
+												<div class="media">
+													<img class="img-radius" src="assets/images/user/1.jpg" alt="Generic placeholder image">
+													<div class="media-body">
+														<p><strong>قاسم عدنان</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+														<p>مؤجر </p>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<div class="noti-footer">
+											<a href="#!">عرض الكل</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown drp-user">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										<i class="feather icon-user"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right profile-notification">
+										<div class="pro-head">
+											<img src="assets/images/user/1.jpg" class="img-radius" alt="User-Profile-Image">
+											<span>اسم الادمن</span>
+											<a href="auth-signin.html" class="dud-logout" title="Logout">
+												<i class="feather icon-log-out"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+					</ul>
+				</div>
+				
+			
+	</header>
+	<!-- [ Header ] end -->
+	
+	
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">تأكيد معلومات المؤجرين</h5>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#!">تأكيد معلومات المؤجرين</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+            <!-- [ sample-page ] start -->
+            <div class="col-xl-12 col-md-12 home" >
+                <div class="card table-card">
+                    <div class="card-header">
+                        <h5> تأكيد معلومات الشقة</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> تكبير</span><span style="display:none"><i class="feather icon-minimize"></i> تصغير</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i>طيى</span><span style="display:none"><i class="feather icon-plus"></i>فتح</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> تحديث</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> حذف </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+					<div class="card-body p-0">
+						<div class="table-responsive">
+								<div class="row m-0 mb-2">
+									<div class="col-6 title-info1" >
+												محمد صالح
+									</div>
+									<div class="col-6 title-info" >
+										اسم المالك
+									</div>
+								<div class="col-6 title-info1" >
+											777 777 777
+								</div>
+								<div class="col-6 title-info">
+									رقم الهاتف	
+								</div>
+							<div class="col-6 title-info1"  >
+										شقه
+							</div>
+							<div class="col-6 title-info"  >
+								النوع	
+							</div>
+							<div class="col-6 title-info1" >
+									شهري
+							</div>
+							<div class="col-6 title-info" >
+								نوع السعر
+							</div>
+							<div class="col-6 title-info1"  >
+									$ 3600
+							</div>
+							<div class="col-6 title-info">
+								السعر 
+							</div>
+							
+							<div class="col-6 title-info1">
+									5
+								سنوات	
+							</div>
+							<div class="col-6 title-info" >
+								عمر الشقة 	
+							</div>
+							<div class="col-6 title-info1" >
+									3
+						</div>
+						<div class="col-6 title-info" >
+							رقم الطابق	
+						</div>
+							
+							<div class="col-6 title-info1" >
+									11
+							</div>
+							<div class="col-6 title-info" >
+							عدد الغرف
+							</div>
+							<div class="col-6 title-info1">
+									2
+							</div>
+							<div class="col-6 title-info">
+							عدد الصالات	
+							</div>
+							<div class="col-6 title-info1">
+								3
+							</div>
+							<div class="col-6 title-info">
+							عدد الحمامات
+							</div>
+	
+							<div class="col-7 col-sm-4 title-info1"  >
+									<div class="row">
+										<div class="col">
+										
+											الطول
+										</div>
+										<div class="col">
+												العرض
+										</div>
+									</div>
+									<div class="row">
+											<div class="col">
+													<!-- الطول -->
+												35.75
+											</div>
+											<div class="col">
+													<!-- العرض -->
+													788.56
+											</div>
+										</div>
+						</div>
+						<div class="col-5 col-sm-8 title-info">
+							الإحداثيات	
+						</div>
+	
+						<div class="col-6 title-info1">
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+						<div class="col-6 title-info">
+						هل يوجد ماء وكهرباء ؟	
+						</div>
+						<div class="col-6 title-info1" >
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+						<div class="col-6 title-info" >
+						هل يوجد مطبخ ؟	
+						</div>
+						<div class="col-6 title-info1" >
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+						<div class="col-6 title-info">
+						هل الشقه مفروشه ؟	
+						</div>
+						<div class="col-6 title-info1">
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+						<div class="col-6 title-info">
+						هل يوجد سطح خاص ؟
+						</div>
+						<div class="col-6 title-info1">
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+						<div class="col-6 title-info">
+						هل يوجد مدخل خاص ؟
+						</div>
+						<div class="col-6 title-info1">
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+						<div class="col-6 title-info"  >
+						فئة الشقة
+						</div>
+									
+								</div>
+								<div class="row m-0" >
+	
+										<div class="col-12 col-lg-3 col-md-6">
+											
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/s1.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/s2.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/s3.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/s4.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+								</div>
+								<div class="row m-0 mb-2" id="conf-info">
+										<div class="col-12">
+												<button type="button" class="btn btn-primary has-ripple" id="btn-conf-info"><i class="feather mr-2 icon-thumbs-up"></i>
+												تأكيد المعلومات<span class="ripple ripple-animate"></span></button>
+										</div>
+										
+									
+						
+									
+						
+								</div>
+							
+						</div>
+					</div>
+            </div>
+            <!-- [ sample-page ] end -->
+			</div>
+			<div class="col-xl-12 col-md-12 stor">
+					<div class="card table-card">
+						<div class="card-header">
+							<h5> تأكيد معلومات المخزن</h5>
+							<div class="card-header-right">
+								<div class="btn-group card-option">
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="feather icon-more-horizontal"></i>
+									</button>
+									<ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+										<li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> تكبير</span><span style="display:none"><i class="feather icon-minimize"></i> تصغير</span></a></li>
+										<li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i>طيى</span><span style="display:none"><i class="feather icon-plus"></i>فتح</span></a></li>
+										<li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> تحديث</a></li>
+										<li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> حذف </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card-body p-0">
+								<div class="table-responsive">
+								<div class="row m-0 mb-2">
+								<div class="col-6 title-info1" >
+												محمد جميل
+									</div>
+								<div class="col-6 title-info" >
+										اسم المالك
+									</div>
+							<div class="col-6 title-info1" >
+											777 777 777
+								</div>
+							<div class="col-6 title-info" >
+									رقم الهاتف	
+								</div>
+						<div class="col-6 title-info1" >
+										مخزن
+							</div>
+						<div class="col-6 title-info" >
+								النوع	
+							</div>
+						<div class="col-6 title-info1" >
+									سنوي
+							</div>
+						<div class="col-6 title-info" >
+								نوع السعر
+							</div>
+						<div class="col-6 title-info1" >
+								$	45776 
+							</div>
+						<div class="col-6 title-info" >
+								السعر 
+							</div>
+						<div class="col-6 title-info1" >
+									7 متر
+						</div>
+					<div class="col-6 title-info" >
+							 عرض الشارع الامامي
+						</div>
+					<div class="col-6 title-info1" >
+							1
+					</div>
+				<div class="col-6 title-info" >
+						عدد الشوارع
+					</div>
+				<div class="col-6 title-info1" >
+							4
+					</div>
+				<div class="col-6 title-info" >
+						عدد الفتحات
+					</div>
+							
+					<div class="col-7 col-sm-4 title-info1"  >
+							<div class="row">
+								<div class="col">
+								
+									الطول
+								</div>
+								<div class="col">
+										العرض
+								</div>
+							</div>
+							<div class="row">
+									<div class="col">
+											<!-- الطول -->
+										35.75
+									</div>
+									<div class="col">
+											<!-- العرض -->
+											788.56
+									</div>
+								</div>
+				</div>
+				<div class="col-5 col-sm-8 title-info">
+					الإحداثيات	
+				</div>
+
+					<div class="col-6 title-info1" >
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+					<div class="col-6 title-info" >
+						هل يوجد ماء وكهرباء ؟	
+						</div>
+						
+					</div>
+								<div class="row m-0">
+	
+										<div class="col-12 col-lg-3 col-md-6">
+											
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/h1.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/h2.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/h3.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/h4.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+								</div>
+								<div class="row m-0 mb-2" id="conf-info">
+										<div class="col-12">
+												<button type="button" class="btn btn-primary has-ripple" id="btn-conf-info-stor"><i class="feather mr-2 icon-thumbs-up"></i>
+												تأكيد المعلومات<span class="ripple ripple-animate"></span></button>
+										</div>
+								</div>
+							
+						</div>
+						</div>
+				</div>
+				<!-- [ sample-page ] end -->
+			</div> 
+			<div class="col-xl-12 col-md-12 bulid">
+					<div class="card table-card">
+						<div class="card-header">
+							<h5> تأكيد معلومات المبنئ</h5>
+							<div class="card-header-right">
+								<div class="btn-group card-option">
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="feather icon-more-horizontal"></i>
+									</button>
+									<ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+										<li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> تكبير</span><span style="display:none"><i class="feather icon-minimize"></i> تصغير</span></a></li>
+										<li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i>طيى</span><span style="display:none"><i class="feather icon-plus"></i>فتح</span></a></li>
+										<li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> تحديث</a></li>
+										<li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> حذف </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card-body p-0">
+								<div class="table-responsive">
+								<div class="row m-0 mb-2">
+								
+									<div class="col-6 title-info1" >
+												محمد صالح
+									</div>
+									<div class="col-6 title-info" >
+										اسم المالك
+									</div>		
+							<div class="col-6 title-info1" >
+											777 777 777
+								</div>
+							<div class="col-6 title-info" >
+									رقم الهاتف	
+							</div>
+						<div class="col-6 title-info1" >
+										مبنئ
+							</div>
+						<div class="col-6 title-info" >
+								النوع	
+							</div>
+						<div class="col-6 title-info1" >
+									سنوي
+							</div>
+						<div class="col-6 title-info" >
+								نوع السعر
+							</div>
+						<div class="col-6 title-info1" >
+									65468 $
+							</div>
+						<div class="col-6 title-info" >
+								السعر 
+							</div>
+
+						<div class="col-6 title-info1" >
+									5
+								سنوات	
+							</div>
+						<div class="col-6 title-info" >
+								عمر المبناء 	
+							</div>
+						<div class="col-6 title-info1" >
+									7
+						</div>
+					<div class="col-6 title-info" >
+							 عددالطوابق	
+						</div>
+							
+						<div class="col-7 col-sm-4 title-info1"  >
+								<div class="row">
+									<div class="col">
+									
+										الطول
+									</div>
+									<div class="col">
+											العرض
+									</div>
+								</div>
+								<div class="row">
+										<div class="col">
+												<!-- الطول -->
+											35.75
+										</div>
+										<div class="col">
+												<!-- العرض -->
+												788.56
+										</div>
+									</div>
+					</div>
+					<div class="col-5 col-sm-8 title-info">
+						الإحداثيات	
+					</div>
+
+					<div class="col-6 title-info1" >
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+					<div class="col-6 title-info" >
+						هل يوجد ماء وكهرباء ؟	
+						</div>
+					<div class="col-6 title-info1" >
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+					<div class="col-6 title-info" >
+						هل المبناء مفروش ؟	
+						</div>
+					<div class="col-6 title-info1" >
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+					<div class="col-6 title-info" >
+						هل يوجد مدخل خاص ؟
+						</div>
+					</div>
+								<div class="row m-0">
+	
+										<div class="col-12 col-lg-3 col-md-6">
+											
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/m1.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/m2.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/m1.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/m2.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+								</div>
+								<div class="row m-0 mb-2" id="conf-info">
+										<div class="col-12">
+												<button type="button" class="btn btn-primary has-ripple" id="btn-conf-info-bulid"><i class="feather mr-2 icon-thumbs-up"></i>
+												تأكيد المعلومات<span class="ripple ripple-animate"></span></button>
+										</div>
+										
+									
+						
+									
+						
+								</div>
+							
+						</div>
+						</div>
+				</div>
+				<!-- [ sample-page ] end -->
+			</div> 
+			<div class="col-xl-12 col-md-12 room">
+					<div class="card table-card">
+						<div class="card-header">
+							<h5> تأكيد معلومات الغرفة</h5>
+							<div class="card-header-right">
+								<div class="btn-group card-option">
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="feather icon-more-horizontal"></i>
+									</button>
+									<ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+										<li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> تكبير</span><span style="display:none"><i class="feather icon-minimize"></i> تصغير</span></a></li>
+										<li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i>طيى</span><span style="display:none"><i class="feather icon-plus"></i>فتح</span></a></li>
+										<li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> تحديث</a></li>
+										<li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> حذف </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card-body p-0">
+								<div class="table-responsive">
+								<div class="row m-0 mb-2">
+									<div class="col-6 title-info1" >
+												محمد جميل
+									</div>
+									<div class="col-6 title-info" >
+										اسم المالك
+									</div>
+								<div class="col-6 title-info1" >
+											777 777 777
+								</div>
+								<div class="col-6 title-info" >
+									رقم الهاتف	
+								</div>
+							<div class="col-6 title-info1" >
+										غرفة
+							</div>
+							<div class="col-6 title-info" >
+								النوع	
+							</div>
+							<div class="col-6 title-info1" >
+									شهري
+							</div>
+							<div class="col-6 title-info" >
+								نوع السعر
+							</div>
+							<div class="col-6 title-info1" >
+									$ 30
+							</div>
+							<div class="col-6 title-info" >
+								السعر 
+							</div>	
+							<div class="col-7 col-sm-4 title-info1"  >
+									<div class="row">
+										<div class="col">
+										
+											الطول
+										</div>
+										<div class="col">
+												العرض
+										</div>
+									</div>
+									<div class="row">
+											<div class="col">
+													<!-- الطول -->
+												35.75
+											</div>
+											<div class="col">
+													<!-- العرض -->
+													788.56
+											</div>
+										</div>
+						</div>
+						<div class="col-5 col-sm-8 title-info">
+							الإحداثيات	
+						</div>
+						<div class="col-6 title-info1" >
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+						<div class="col-6 title-info" >
+						هل يوجد ماء وكهرباء ؟	
+						</div>
+						<div class="col-6 title-info1" >
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+						<div class="col-6 title-info" >
+						هل يوجد مطبخ ؟	
+						</div>
+						<div class="col-6 title-info1" >
+								<i class="bi bi-check-circle-fill check-circle"></i>
+						</div>
+						<div class="col-6 title-info" >
+						هل يوجد حمام ؟	
+						</div>
+						<div class="col-6 title-info1" >
+								<i class="bi bi-x-circle-fill icon2"></i>
+						</div>
+						<div class="col-6 title-info" >
+						هل يوجد مكيفات ؟	
+						</div>
+						
+					</div>
+								<div class="row m-0" >
+	
+										<div class="col-12 col-lg-3 col-md-6">
+											
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/g1.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/g2.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/g3.jpg" alt="Card image cap">
+												</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-6">
+												<div class="card">
+														<img class="img-fluid card-img-top" src="assets/images/slider/g4.jpg" alt="Card image cap">
+												
+												 </div>
+										</div>
+								</div>
+								<div class="row m-0 mb-2" id="conf-info">
+										<div class="col-12">
+												<button type="button" class="btn btn-primary has-ripple" id="btn-conf-info-room"><i class="feather mr-2 icon-thumbs-up"></i>
+												تأكيد المعلومات<span class="ripple ripple-animate"></span></button>
+										</div>
+										
+									
+						
+									
+						
+								</div>
+							
+						</div>
+						</div>
+				</div>
+				<!-- [ sample-page ] end -->
+			</div> 
+		<!-- [ Main Content ] end -->
+		<div class="modal-content alert-confi-home hide" id="alert-confi-home"> <!--  نافذه  تأكيد  معلومات الشقة -->
+			<div class="modal-header">
+				<h5 class="modal-title">تأكيد المعلومات</h5>
+				<button type="button"  id="close-icon" class="close bake" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
+			<div class="modal-body">
+				<h3 class="mb-0" style="text-align: center">هل تريد تأكيد معلومات الشقة</h3>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary has-r bake" data-dismiss="modal" id="btn-bake">رجوع<span class="ripple ripple-animate" style="height: 75.375px; width: 75.375px; animation-duration: 0.7s; animation-timing-function: linear; background: rgb(255, 255, 255); opacity: 0.4; top: -18.6875px; left: -16.4844px;"></span></button>
+				<button type="button" class="btn-primary btn has-ripple mr-0" id="btn-yas-home">نعم</button>
+			</div>
+		</div>
+		<div class="modal-content alert-confi-stor hide" id="alert-confi-stor"> <!--  نافذه  تأكيد  معلومات المخزن  -->
+			<div class="modal-header">
+				<h5 class="modal-title">تأكيد المعلومات</h5>
+				<button type="button"  id="close-icon" class="close bake" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
+			<div class="modal-body">
+				<h3 class="mb-0" style="text-align: center">هل تريد تأكيد معلومات المخزن</h3>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary has-r bake" data-dismiss="modal" id="btn-bake">رجوع<span class="ripple ripple-animate" style="height: 75.375px; width: 75.375px; animation-duration: 0.7s; animation-timing-function: linear; background: rgb(255, 255, 255); opacity: 0.4; top: -18.6875px; left: -16.4844px;"></span></button>
+				<button type="button" class="btn-primary btn has-ripple mr-0" id="btn-yas-stor">نعم</button>
+			</div>
+		</div>
+		<div class="modal-content alert-confi-bulid hide" id="alert-confi-bulid"> <!--  نافذه  تأكيد  معلومات المبنئ -->
+			<div class="modal-header">
+				<h5 class="modal-title">تأكيد المعلومات</h5>
+				<button type="button"  id="close-icon" class="close bake" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
+			<div class="modal-body">
+				<h3 class="mb-0" style="text-align: center">هل تريد تأكيد معلومات المبنئ</h3>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary has-r bake" data-dismiss="modal" id="btn-bake">رجوع<span class="ripple ripple-animate" style="height: 75.375px; width: 75.375px; animation-duration: 0.7s; animation-timing-function: linear; background: rgb(255, 255, 255); opacity: 0.4; top: -18.6875px; left: -16.4844px;"></span></button>
+				<button type="button" class="btn-primary btn has-ripple mr-0" id="btn-yas-bulid">نعم</button>
+			</div>
+		</div>
+
+		<div class="modal-content alert-confi-room hide" id="alert-confi-room"> <!--  نافذه  تأكيد  معلومات الغرفة -->
+			<div class="modal-header">
+				<h5 class="modal-title">تأكيد المعلومات</h5>
+				<button type="button"  id="close-icon" class="close bake" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
+			<div class="modal-body">
+				<h3 class="mb-0" style="text-align: center">هل تريد تأكيد معلومات الغرفة</h3>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary has-r bake" data-dismiss="modal" id="btn-bake">رجوع<span class="ripple ripple-animate" style="height: 75.375px; width: 75.375px; animation-duration: 0.7s; animation-timing-function: linear; background: rgb(255, 255, 255); opacity: 0.4; top: -18.6875px; left: -16.4844px;"></span></button>
+				<button type="button" class="btn-primary btn has-ripple mr-0" id="btn-yas-room">نعم</button>
+			</div>
+		</div>
+		<div class="alert-info alert  hide" id="alert-info" role="alert" >
+			تم تاكيد المعلومات بنجاح
+		 </div>
+		</div>
+	</div>
+</div>
+    <!-- Required Js -->
+	<script src="assets/js/jqueryDiv.js"></script>
+	<script src="assets/js/vendor-all.min.js"></script>
+	<script src="assets/js/plugins/bootstrap.min.js"></script>
+	<script src="assets/js/ripple.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/pcoded.min.js"></script>
+
+
+
+</body>
+
+</html>

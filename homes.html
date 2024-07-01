@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>ALDALAL</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Phoenixcoded" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/logo-dark.png" type="image/x-icon">
+    <!-- vendor css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/plugins/bootstrap-icons-1.10.3/bootstrap-icons.css">
+    
+</head>
+<body class="">
+	<!-- [ Pre-loader ] start -->
+	<div class="loader-bg">
+		<div class="loader-track">
+			<div class="loader-fill"></div>
+		</div>
+	</div>
+	<!-- [ Pre-loader ] End -->
+	<!-- [ navigation menu ] start -->
+	<nav class="pcoded-navbar menu-light ">
+			<div class="navbar-wrapper  ">
+				<div class="navbar-content scroll-div " >
+					
+					<div>
+						<div class="main-menu-header">
+							<img class="img-radius" src="assets/images/user/1.jpg" alt="User-Profile-Image">
+							<div class="user-details">
+								<div id="more-details">اسم الادمن</div>
+							</div>
+						</div>
+					</div>
+					
+					<ul class="nav pcoded-inner-navbar ">
+						<li class="nav-item pcoded-menu-caption">
+						</li>
+						<li class="nav-item">
+							<a href="index.html" class="nav-link "><span class="pcoded-mtext">لوحة التحكم</span> <span class="pcoded-micon"><i class="feather icon-home"></i></span></a>
+						</li>
+						<li class="nav-item pcoded-hasmenu">
+							<a href="#!" class="nav-link "><span class="pcoded-mtext">قائمة الصفحات</span><span class="pcoded-micon"><i class="feather icon-layout"></i></span></a>
+							<ul class="pcoded-submenu">
+								<li><a href="users.html" >المستخدمين</a></li>
+								<li><a href="homes.html" >المنازل</a></li>
+								<li><a href="bloked.html" >المحضورين</a></li>
+								<li><a href="chart-apex.html" >الاحصائيات البيانية</a></li>
+								<li><a href="confirmation-of-the-landiords-information.html" >تاكيد طلبات المؤجرين</a></li>
+							</ul>
+						</li>
+						 <li class="nav-item ">
+							 <a href="auth-signin.html" class="nav-link has-ripple">
+							
+							 <span class="pcoded-micon">
+									<i class="bi bi-box-arrow-left"></i>
+							 </span>
+							 <span >خروج</span>
+							
+						   </a>
+						</li>
+							 
+					
+					</ul>
+				
+				</div>
+			</div>
+	</nav>
+	<!-- [ navigation menu ] end -->
+	<!-- [ Header ] start -->
+	<header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
+		
+			
+				<div class="m-header">
+					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+					<a href="#!" class="b-brand">
+						<!-- ========   change your logo hear   ============ -->
+						<img src="assets/images/logo.png" alt="" width="150px" class="logo">
+						<img src="assets/images/logo-icon.png" alt="" class="logo-thumb">
+					</a>
+					<a href="#!" class="mob-toggler">
+						<i class="feather icon-more-vertical"></i>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
+							<div class="search-bar">
+								<input type="text" class="form-control border-0 shadow-none" placeholder="إبحث هنا">
+								<button type="button" class="close" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+							<li>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+									<div class="dropdown-menu-right notification noti hide" >
+										<div class="noti-head">
+											<h6 class="d-inline-block m-b-0">الإشعارات</h6>
+											<div class="float-right">
+												<a href="#!" class="m-r-10">قراءة الكل</a>
+												<a href="#!">حذف الكل</a>
+											</div>
+										</div>
+										<ul class="noti-body">
+											<li class="n-title">
+												<p class="m-b-0">جديد</p>
+											</li>
+                                        <a href="confirmation-home-information.html">
+                                            	<li class="notification">
+                                                        <div class="media">
+                                                            <img class="img-radius" src="assets/images/user/3.jpg" alt="Generic placeholder image">
+                                                            <div class="media-body">
+                                                                <p><strong>محمد صالح</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
+                                                                <p class="p">شقه</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                        </a>
+										<a href="confirmation-bulid-up-information.html">
+                                            	<li class="notification noti-ma">
+													<div class="media">
+														<img class="img-radius" src="assets/images/user/4.jpg" alt="Generic placeholder image">
+														<div class="media-body">
+															<p><strong>عبدالولي نبيل</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>45 min</span></p>
+															<p class="p">مبنئ</p>
+														</div>
+
+                                                    </div>
+                                                </li>
+                                        </a>
+												
+										<a href="confirmation-room-information.html">
+                                                <li class="notification">
+														<div class="media">
+															<img class="img-radius" src="assets/images/user/2.jpg" alt="Generic placeholder image">
+															<div class="media-body">
+																<p><strong>حزام احمد</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>2 hours</span></p>
+                                                                <p class="p">غرفة</p>
+                                                            </div>
+														</div>
+													</li>
+                                        </a>		
+										<a href="confirmation-store-information.html">
+                                            	<li class="notification">
+                                                        <div class="media">
+                                                            <img class="img-radius" src="assets/images/user/1.jpg" alt="Generic placeholder image">
+                                                            <div class="media-body">
+                                                                <p><strong>جلال طه</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 hours</span></p>
+                                                                <p class="p">مخزن</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                        </a>
+											<li class="n-title">
+												<p class="m-b-0">من قبل</p>
+											</li>
+											<li class="notification">
+												<div class="media">
+													<img class="img-radius" src="assets/images/user/4.jpg" alt="Generic placeholder image">
+													<div class="media-body">
+														<p><strong>عمر خالد</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
+														<p>مستأجر</p>
+													</div>
+												</div>
+											</li>
+											<li class="notification">
+												<div class="media">
+													<img class="img-radius" src="assets/images/user/2.jpg" alt="Generic placeholder image">
+													<div class="media-body">
+														<p><strong>مروان ياسين</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 min</span></p>
+														<p>مستأجر</p>
+													</div>
+												</div>
+											</li>
+											<li class="notification">
+												<div class="media">
+													<img class="img-radius" src="assets/images/user/1.jpg" alt="Generic placeholder image">
+													<div class="media-body">
+														<p><strong>قاسم عدنان</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+														<p>مؤجر </p>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<div class="noti-footer">
+											<a href="#!">عرض الكل</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown drp-user">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										<i class="feather icon-user"></i>
+									</a>
+									<div class="dropdown-menu dropdown-menu-right profile-notification">
+										<div class="pro-head">
+											<img src="assets/images/user/1.jpg" class="img-radius" alt="User-Profile-Image">
+											<span>اسم الادمن</span>
+											<a href="auth-signin.html" class="dud-logout" title="Logout">
+												<i class="feather icon-log-out"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+					</ul>
+				</div>
+				
+			
+	</header>
+	<!-- [ Header ] end -->
+	
+	
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">المنازل</h5>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#!">المنازل</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+            <!-- [ sample-page ] start -->
+            <div class="col-xl-12 col-md-12">
+                <div class="card latest-update-card">
+                    <div class="card-header">
+                        <h5>المنازل</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> تكبير</span><span style="display:none"><i class="feather icon-minimize"></i> تصغير</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i>طيى</span><span style="display:none"><i class="feather icon-plus"></i>فتح</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> تحديث</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> حذف </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body " >
+							<div class="table-responsive">
+									<table class="table table-hover mb-0" style="text-align: center">
+										<thead>
+											<tr>
+												<div class="row">
+													<div class="col">
+														<th > العمليات</th>
+													</div>
+													<div class="col">
+														<th>السعر</th>
+													</div>
+													<div class="col">
+														<th>عدد الغرف</th>
+													</div>
+													<div class="col">
+														<th >العنوان</th> 
+													</div>
+												</div>
+											</tr>
+										</thead>
+										<tbody> 
+											<tr>
+												<td  class="text-muted">
+														<div class="row">
+																<div class="col-12 " >
+																	<i class="bi bi-eye-fill eyeIcon1"></i>
+																</div>
+															</div>
+												</td>
+												<td>300$</td>
+												<td>5</td>
+												<td>
+													<div class="d-inline-block align-middle">
+																الجراف
+													</div>
+												</td>
+											
+											</tr>
+											<tr>
+												<td  class="text-muted">
+															<div class="row">
+																	
+																	<div class=" col-12 " >
+																		<i class="bi bi-eye-fill eyeIcon1" ></i>
+																	</div>
+																</div>
+													</td>
+													<td>500$</td>
+													<td>15</td>
+													<td>
+														<div class="d-inline-block align-middle">
+																	
+														</div>الستين
+													</td>
+												
+											</tr>
+											<tr>
+												<td  class="text-muted">
+																<div class="row">
+																		
+																		<div class="col-12 " >
+																			<i class="bi bi-eye-fill eyeIcon1"></i>
+																		</div>
+																	</div>
+														</td>
+														<td>100$</td>
+														<td>3</td>
+														<td>
+															<div class="d-inline-block align-middle">
+																		
+															</div>دارس
+														</td>
+													
+											</tr>
+											<tr>
+													<td  class="text-muted">
+																	<div class="row">
+																			
+																			<div class="col-12 " >
+																				<i class="bi bi-eye-fill eyeIcon1" ></i>
+																			</div>
+																		</div>
+															</td>
+															<td>1000$</td>
+															<td>17</td>
+															<td>
+																<div class="d-inline-block align-middle">
+																			
+																</div>حدة
+															</td>
+														
+												</tr>
+										</tbody>
+									</table>
+								</div>
+
+					</div>
+                </div>
+            </div>
+            <!-- [ sample-page ] end -->
+        </div>
+        <!-- [ Main Content ] end -->
+	</div>
+	<div class='homes-alart  hide'  ><!--نافذه عرض معلومات المنازل-->
+          
+		<div class="modal-header">
+				<h5 class="modal-title"> عرض معلومات المنزل</h5>
+				<button type="button"  id="close-icon" class="close bake" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+			</div>
+		
+		<div class="row" style="text-align: center">
+			<div class="col-8" >
+					<h4 > احمد خالد</h4>
+					<h4 > شارع هائل</h4>
+					<h4>500$</h4>
+					<h4>9</h4>
+					
+					<h1 class="iconh"><i class="bi bi-check-circle circle"></i></h1>
+					
+			</div>
+			<div class="col-3">
+					<h4> المالك</h4>
+					<h4>العنوان </h4>
+					<h4>السعر </h4>
+					<h4>الفرف<h1><i class="bi bi-x-circle iconh1" ></i></h1> 
+			</div>
+		</div>
+
+	</div>
+</div>
+    <!-- Required Js -->
+	<script src="assets/js/jqueryDiv.js"></script>
+	<script src="assets/js/vendor-all.min.js"></script>
+	<script src="assets/js/plugins/bootstrap.min.js"></script>
+	<script src="assets/js/ripple.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/pcoded.min.js"></script>
+
+
+
+</body>
+
+</html>

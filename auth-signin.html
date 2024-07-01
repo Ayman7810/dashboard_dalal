@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+	<title>ALDALAL</title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="">
+	<meta name="author" content="Phoenixcoded" />
+	<!-- Favicon icon -->
+	<link rel="icon" href="assets/images/logo-dark.png" type="image/x-icon">
+	<!-- vendor css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+
+<!-- [ auth-signin ] start -->
+<div class="auth-wrapper">
+	<div class="auth-content">
+		<div class="card">
+			<div class="row align-items-center text-center">
+				<div class="col-md-12">
+					<div class="card-body">
+						<img src="assets/images/logo-dark.png" alt="" class="img-fluid mb-4">
+						<h4 class="mb-3 f-w-400" id="res">تسجيل الدخول</h4>
+						<div id="error"></div>
+						<form id="form">
+							<div class="form-group mb-3">
+
+								<label class="Email floating-label " for="Email">الإيميل</label>
+								<input type="text" class="form-control" id="Phone" placeholder="">
+							</div>
+							<div class="form-group mb-4">
+								<label class="Password floating-label" for="Password">كلمة المرور</label>
+								<input type="password" class="form-control" id="Password" placeholder="">
+							</div>
+
+							<input type="submit" class="btn btn-block btn-primary mb-4"></input>
+
+	
+
+							<p class="mb-2 text-muted"> هل نسيت كلمة المرور؟<a asp-controller="Home" asp-action="Index" class="f-w-400"> إستعادة</a></p>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="~/assets/js/jqueryDiv.js"></script>
+		
+<script >
+	console.log($("#Phone"));
+	$("submit").click(function(){
+		
+
+	})
+
+
+</script>
+<!-- [ auth-signin ] end -->
+
+
+<!-- Apex Chart -->
+<script src="~/assets/js/plugins/apexcharts.min.js"></script>
+
+<!-- custom-chart js -->
+<script src="~/assets/js/pages/dashboard-main.js"></script>
+<script src="~/assets/js/plugins/apexcharts.min.js"></script>
+<script src="~/assets/js/pages/chart-apex.js"></script>
+
+
+</body>
+
+</html>
